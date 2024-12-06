@@ -30,11 +30,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		981F10FC2CF4C5FB0048ECD9 /* LandMarks */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LandMarks;
-			sourceTree = "<group>";
-		};
 		981F110D2CF4C5FC0048ECD9 /* LandMarksTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LandMarksTests;
@@ -43,6 +38,11 @@
 		981F11172CF4C5FC0048ECD9 /* LandMarksUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LandMarksUITests;
+			sourceTree = "<group>";
+		};
+		98A381C92CFEBFE6002AD1EC /* LandMarks */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LandMarks;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +75,7 @@
 		981F10F12CF4C5FB0048ECD9 = {
 			isa = PBXGroup;
 			children = (
-				981F10FC2CF4C5FB0048ECD9 /* LandMarks */,
+				98A381C92CFEBFE6002AD1EC /* LandMarks */,
 				981F110D2CF4C5FC0048ECD9 /* LandMarksTests */,
 				981F11172CF4C5FC0048ECD9 /* LandMarksUITests */,
 				981F10FB2CF4C5FB0048ECD9 /* Products */,
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				981F10FC2CF4C5FB0048ECD9 /* LandMarks */,
+				98A381C92CFEBFE6002AD1EC /* LandMarks */,
 			);
 			name = LandMarks;
 			packageProductDependencies = (
