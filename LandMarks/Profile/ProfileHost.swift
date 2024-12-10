@@ -1,0 +1,28 @@
+//
+//  ProfileHost.swift
+//  LandMarks
+//
+//  Created by Alan Modesto on 10/12/24.
+//
+
+import SwiftUI
+
+import SwiftUI
+
+
+struct ProfileHost: View {
+    @State private var draftProfile = Profile.default
+
+
+    var body: some View {
+            VStack(alignment: .leading, spacing: 20) {
+                ProfileSummary(profile: draftProfile)
+            }
+            .padding()
+        }
+}
+
+
+#Preview {
+    ProfileHost()
+}
